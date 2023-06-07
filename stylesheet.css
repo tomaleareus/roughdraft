@@ -1,0 +1,162 @@
+
+
+
+@media only screen and (min-width:380px ) {
+ 
+  .sidenav {padding-top: 15px;
+  
+}
+.sidenav a {font-size: 18px;}
+
+.mobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.home{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* side nav */
+
+
+
+
+.sidenav {
+  height: 100%;
+  line-height: 20px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+ 
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+
+
+}
+
+@media only screen and (min-width: 990px) {
+
+h2{
+  font-family: "cardo", sans-serif;
+}
+ .mobile{
+  display: none;
+ }
+
+ .menu{
+  margin: 10px;
+ }
+
+
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    
+    grid-template-areas: 
+      "Menu content"; 
+  }
+  .Menu { grid-area: Menu;
+
+
+position: fixed;
+
+
+padding: 10px;
+margin: 10px;
+line-height: .5px;
+
+
+
+}
+  .content { grid-area: content; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  
+  
+  .container {
+    border-radius: 5px;
+  
+    padding: 20px;
+  }
+
+ 
+
+}
+
+
+
+
+
+
